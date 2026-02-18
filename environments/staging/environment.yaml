@@ -21,7 +21,7 @@ app:
   # List of environment variables that set for the application
   # Liberty encrypted values are supported only if referenced in server.xml
   env:
-    - name: JVM_ARGS # q: make that as a top level 'jvmArguments' property?
+    - name: JVM_ARGS # q: make that as a top level 'jvmArguments' property? 
       value: "-DenvironmentType=stage"
     - name: MY_ENV
       value: "1"
